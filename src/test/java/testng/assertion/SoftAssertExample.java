@@ -19,7 +19,7 @@ public class SoftAssertExample {
         String buttonText = driver.findElement(By.xpath("//button[text()='Log In']")).getText();
         softAssert.assertEquals(title, "Facebook – log in or sign up", "Facebook - log in or sign up title should match");
         softAssert.assertEquals(subHeader, "Facebook helps you connect and share with the people in your life.", "'Facebook helps you connect and share with the people in your life. should match");
-        softAssert.assertEquals(buttonText, "Log In", "Log In button Text should match");
+        softAssert.assertEquals(buttonText, "Log In", "Log In button Text should match hii");
         softAssert.assertFalse(title.isEmpty(),  "Facebook - log in or sign up title should match");
         softAssert.assertAll();
         driver.close();
