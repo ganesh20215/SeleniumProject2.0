@@ -25,7 +25,7 @@ public class ClickAndHoldTest {
         js.executeScript("arguments[0].scrollIntoView();", titleC);
         actions.moveToElement(titleA).build().perform();
         actions.clickAndHold().build().perform();
-        Thread.sleep(5000);
         driver.close();
+		System.out.println("Good Morning");
     }
 }
