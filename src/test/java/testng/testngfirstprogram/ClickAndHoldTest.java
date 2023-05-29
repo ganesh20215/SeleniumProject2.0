@@ -27,5 +27,7 @@ public class ClickAndHoldTest {
         actions.clickAndHold().build().perform();
         driver.close();
 		System.out.println("Good Morning");
+		System.out.println("Good Evening");
+		System.out.println("Hello");
     }
 }
